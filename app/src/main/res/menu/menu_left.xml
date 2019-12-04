@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/menu_infoinput"
+            android:icon="@drawable/ic_recent_actors_black_24dp"
+            android:title="我的点点滴滴"/>
+        <item
+            android:id="@+id/menu_findgirl"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="靓女，你知道我在找你吗？" />
+        <item
+            android:id="@+id/menu_findboy"
+            android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+            android:title="帅哥，你知道我在等你吗？" />
+        <item
+            android:id="@+id/menu_publishactivity"
+            android:icon="@drawable/ic_room_black_24dp"
+            android:title="动感世界，玩的就是心跳！" />
+    </group>
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/menu_word"
+            android:icon="@drawable/ic_sms_black_24dp"
+            android:title="我有几句话要说..." />
+
+        <item
+            android:id="@+id/menu_exit"
+            android:icon="@drawable/ic_sms_black_24dp"
+            android:title="暂时离开此温柔乡" />
+    </group>
+
+
+
+</menu>
